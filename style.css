@@ -1,0 +1,14 @@
+.nicetext {
+  font-family: 'Comfortaa';
+  font-size: 70px;
+  padding-top: 250px;
+  
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% { color: yellow; }
+  50% { color: cyan; }
+  100% { color: lime; }
+  
+}
